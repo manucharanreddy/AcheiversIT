@@ -1,0 +1,557 @@
+*{
+    margin: 0%;
+    border: 0px;
+}
+
+
+body{
+   
+    background-color:whitesmoke;
+
+}
+
+
+   .nav{
+    display: flex;
+    background-color: #ffffff; 
+    padding: 10px 20px;
+   }
+
+   .navlist ul {
+    display: flex;
+    gap: 40px;    
+    list-style: none;
+    flex-direction: row;
+    padding-top: 30px;
+    
+   
+   }
+   
+   .navlist ul li a{
+    text-decoration: none ;
+    color: rgb(127, 125, 125);
+    font-size: 20px;
+    
+   }
+
+    .navlist ul li a:hover{
+    
+    color: black;
+    
+   }
+
+
+   .navright{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+   }
+
+
+ .icons{
+       display: flex;
+       gap: 20px;
+       padding-left: 700px;
+ }
+
+.subscribe button {
+  background-color: #111;       
+  color: white;                
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;         
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe button:hover {
+  background-color: #333;
+}
+
+/* second box starts here */
+
+.buildingimage img{
+    
+    width: 400px;
+    height:300px;
+    border-radius: 30px;
+    padding-top: 10px;
+   
+}
+
+.second-box{
+    display: flex;
+    gap: 30px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    width: 1400px;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 10px;
+    height: 320px;
+
+}
+
+.infoboxone{
+    padding-top: 30px;
+    height: 200px;
+}
+
+
+#lp1{
+    background-color: rgb(255, 201, 247);
+    color: rgb(191, 116, 226);
+    font-weight: 300px;
+    width: 60px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+}
+
+
+#lp2{
+    padding-top: 10px;
+    color: #333;
+    font-size: large;
+    width: 500px;
+
+}
+
+
+.secondboxuser{
+    display: flex;
+    padding-top: 50px;
+    
+    gap: 20px;
+    height: 50px;
+    width: 250px;
+}
+
+.secondboxuser img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    
+}
+
+#sbuserinfo{
+    color: grey;
+    height: 30px;
+    width:180px;
+    padding-top: 5px;
+}
+/* second box ends here */
+
+
+/* third box starts here */
+
+.vrboximage img{
+    
+    width: 200px;
+    height:200px;
+    border-radius: 30px;
+    padding-top: 10px;
+   
+}
+
+.third-box{
+    display: flex;
+    gap: 30px;
+    background-color: #ffffff;
+    width:650px;
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 220px;
+
+}
+
+.infoboxtwo{
+    padding-top: 30px;
+    height: 200px;
+}
+
+
+#tp1{
+    background-color: rgb(111, 204, 235);
+    color: rgb(9, 15, 1);
+    font-weight: 300px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+}
+
+
+#tbuserinfo{
+    color: grey;
+    height: 30px;
+    width:200px;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* third box ends here */
+
+
+/* fourth box starts here */
+
+.beachimage img{
+    
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+    padding-top: 10px;
+   
+}
+
+.fourth-box{
+    display: flex;
+    gap: 30px;
+    background-color: #ffffff;
+    width: 650px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    height: 220px;
+
+
+}
+
+.infoboxthree{
+    padding-top: 30px;
+    height: 200px;
+}
+
+
+#fp1{
+    background-color: rgb(120, 243, 192);
+    color: rgb(29, 159, 46);
+    font-weight: 300px;
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+}
+
+
+#fbuserinfo{
+    color: grey;
+    height: 30px;
+    width:200px;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* fourth box ends here */
+
+
+
+.bottom-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 75px;             
+  margin-top: 40px;
+}
+
+
+/*  browse starts here  */
+
+.browse{
+    margin-left:700px;
+    margin-right:600px;
+    margin-top: 20px;
+}
+
+
+
+.browse h1{
+    width: 600px;
+    font-size: 40px;
+    
+}
+
+
+.browse p{
+    padding-left: 30px;
+    color: grey;
+}
+
+/*  browse ends here  */
+
+
+/* browse categories starts here  */
+
+.browsecategories{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left:480px ;
+}
+
+.browsecategories button {
+  padding: 5px 10px;
+  border: 1px solid #888;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.browsecategories button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+/* browse categories ends here  */
+
+
+/* browse posts starts here  */
+
+.browsepostsrowone{
+    margin:30px 0;
+     display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    width: 1400px;
+   padding-top: 30px;
+    margin: auto auto;
+   
+
+}
+
+.bpboxone{
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    border-radius:5px;
+    
+    padding-left:80px;
+
+
+}
+
+.towerimage img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+   
+}
+
+.bpboxoneinfo h1{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bpboxoneinfo p{
+
+   margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: grey;
+
+}
+
+.bpboxoneuser{
+    display: flex;
+    gap: 2px;
+}
+
+
+.bpboxoneuser img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.bpboxoneuserinfo{
+
+    align-content: center;
+    color: gray;
+    margin-left: 8px;
+}
+
+.bpboxoneuser p{
+    align-content: center;
+    margin-left: 8px;
+    color: grey;
+
+}
+
+.bpboxoneuser p span{
+ background-color: rgb(83, 253, 253);
+ color: rgb(12, 25, 91);
+ border-radius: 20px;
+ padding: 4px 4px;
+
+}
+
+
+
+/*  Browse all posts */
+
+.browseallposts{
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+   .browseallposts button{
+    padding: 10px 20px;
+    border:    2px solid black;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #111;
+   }
+
+
+
+/*  Browse all posts  end   */
+
+
+
+/* <!-- Authors --> */
+.top{
+  margin: 20px auto;
+ 
+  display: flex;
+  border-bottom: 1px solid gray;
+  width: 1020px;
+  justify-content: space-between;
+
+}
+
+.all{
+  margin: auto 0;
+  font-size: small;
+}
+
+
+/* <!-- Authors ends here --> */
+
+/* <!-- Authors photo  --> */
+
+.authors {
+  margin: 20px 0;
+  text-align: center;
+
+}
+.author-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+.author-card {
+  background: rgb(216, 216, 216);
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  border: 1px solid rgb(209, 207, 207);
+}
+.author-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.author-card p{
+  font-size: small;
+  margin: 10px 0;
+  margin-right: 20px;
+}
+
+/* <!-- Authors photo ends  --> */
+
+/* <!--  Subscribe news letter   --> */
+
+.newsletter {
+  margin: 40px 0;
+  text-align: center;
+  margin: 40px 0;
+  padding: 20px;
+  background:white;
+  display: flex;
+  gap: 50px;
+  width: 1060px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.newsletter input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mail{
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.newsletter button {
+  padding: 8px 16px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* <!--  Subscribe news letter ends   --> */
+
+
+
+/* <!--  footer     --> */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #f8f8f8;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-top: 1px solid black;
+}
+.footer-links{
+  margin-top: 10px;
+}
+
+.socials{
+  margin-right: 500px;
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.socials span{
+  color: black;
+}
+
+/* <!--  footer   ends  --> */
+
+
+
+
+
+
+
