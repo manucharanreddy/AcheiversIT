@@ -6,7 +6,7 @@
 }
 
 .container{
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     width: 100%;
 }
 
@@ -178,3 +178,77 @@ left: 55%;
 }
 
 /* Categories container ends */
+
+
+  /* Description box  */
+
+   .descriptionbox{
+    border:solid 1px orangered;
+    margin: 70px 70px;
+    padding: 30px 30px;
+   }
+
+   .descriptionbox h1{
+    color: #ff5b02;
+    margin-bottom: 30px;
+   }
+
+   .descriptionbox p1{
+    color: gray;
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+   }
+
+    /* Description box ends  */
+
+    /* meals  */
+
+   .meals p{
+    font-size: 30px;
+    letter-spacing: 6px;
+    padding-left: 70px;
+    padding-top: 20px;
+   
+    }
+
+    .border{
+    border: 2px solid orangered;
+    width: 100px;
+    margin-left: 70px;
+    }
+
+    /* meals end */
+
+    /* vegetariancards */
+    
+    
+    .vegetariancards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 70px;
+  }
+
+.vegcard{
+  background-color: white;
+  width: 16vw;
+  width: calc((100% - 80px) / 5);
+  position: relative;
+  border: 1.5PX solid rgb(234, 228, 228);
+}
+
+.vegcard img{
+  height: 180px;
+  width: 100%;
+  
+  object-fit: cover;
+  
+}
+
+.vegcard span{
+   
+   padding-left: 10px;
+   
+}
