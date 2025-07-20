@@ -17,25 +17,27 @@
     background-color: #ff5b02; 
     gap: 1200px;
     width: 100%;
+    height: 70px;
+    align-items:center;
 }
 
 .nav .logo{
-    padding-left: 80px;
-    
+   
+    margin-left: 70px;
    
 }
 
 .nav .logo img{
-    width: 250px;
-    padding: 18px;
+    width: 200px;
+    
     
 
    
 }
 
-.hamburger{
-    padding: 30px;
-    font-size: 25px;
+.hamburger i{
+    
+    font-size: 25px;    
 }
 
 /* Navbar ends */
@@ -100,82 +102,87 @@ left: 55%;
 
 /* CATEGORIES */
 
-.categories{
-    background-color: whitesmoke;
-    
-}
-
-.categories p{
-    font-size: 30px;
-    letter-spacing: 6px;
-    padding-left: 100px;
-    padding-top: 40px;
+.categories-title {
+  display: inline-block;           
+  position: relative;
+  font-size: 2rem;                 
+  font-weight: bold;
+  letter-spacing: 5px;             
+  color: black;     
    
+  margin: 30px;    
+  margin-left: 95px;          
 }
 
-.border{
-    border: 2px solid orangered;
-    width: 110px;
-    margin-left: 100px;
-    
-    
-  
-
+.categories-title::after {
+  content: "";
+  display: block;
+  height: 4px;                    
+  width: 115px;                    
+  background: orangered;           
+  border-radius: 2px;
+  margin-top: 4px;                
+  position: absolute;
+  left: 0;                         
 }
+
 
 
 /* CATEGORIES ENDS */
 
 /* categoriescontainer  */
+.categoriescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+  margin-left: 90px;
+  margin-top: 20px;
+}
 
-.categoriescontainer{
-    
+.category-card {
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: relative;
+  width: calc(20% - 20px);   
+  min-width: 180px;
+  max-width: 240px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-card img {
+  width: 100%;
+  display: block;
+  height: 150px;           
+  object-fit: cover;
+}
+
+.category-card span {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  background:orangered;
+  color:rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 6px 14px;
+  font-size: 1rem;
+  border-radius: 14px;
+  z-index: 2;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+
+.category-card:hover img {
+  transform: scale(0.92); 
+  transition: 1.2s;
+}
    
-    width: 100%;
-}
 
-.cards{
-     padding: 10px 10px;
-     display: flex;
-    flex-wrap: wrap;
-    margin-left: 80px;
-}
-
-
-.category-card{
-    position: relative;
-    background-color: white;
-    margin: 10px 10px;
-    width: 280px;
-    
-}
-
-.category-card span{
-    position:absolute;
-    right: 7%;
-    color: #ffffff;
-    background-color: #ff5b02;
-    border-radius: 12px;
-    bottom: 140px;
-    padding: 5px 5px;
-
-}
-
-.category-card img{
-    width: 250px;
-    padding: 5px 5px;
-}
-
-.category-card :hover{
-    transform:scale(0.8);
-    transition: ease-in-out 0.5s;
-}
-   
-
-#faultimg span{
-    position: absolute;
-    bottom:183px ;
-}
 
 /* Categories container ends */
 
@@ -221,8 +228,8 @@ left: 55%;
 
     /* meals end */
 
-    /* vegetariancards */
-    
+
+    /* Vegetarian page starts */
     
     .vegetariancards{
   display: flex;
@@ -248,7 +255,241 @@ left: 55%;
 }
 
 .vegcard span{
-   
-   padding-left: 10px;
+align-items: center;
+padding-top: 8px;
    
 }
+
+
+/* Vegetarian page ends */
+
+
+
+
+/* Baingan page */
+
+
+.containthree{
+    background-color: whitesmoke;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    gap: 10px;
+    background-color: #ff5b02;
+    align-items: center;
+    height: 70px;
+}
+.home i{
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.pagename {
+    margin-left: 10px;
+   display: flex;
+    font-size: 10px;
+    color: #ffffff;
+
+}
+  
+
+    .pagename p{
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+    }
+
+/* navbar end */
+
+/* mealdetails */
+
+
+    .mealdetails{
+        height: 70px;
+        background-color: whitesmoke;
+    }
+
+      .mealdetails h1{
+    font-size: 25px;
+    letter-spacing: 6px;
+    padding-left: 50px;
+    padding-top: 40px;
+      
+    }
+
+    .border{
+    border: 2px solid orangered;
+    width: 90px;
+    margin-left: 50px;
+    }
+
+/* mealdetails end*/
+
+
+/* baingan */
+.baingan{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 80px;
+
+}
+
+.bimage img{
+    height: 500px;
+    width: 700px;
+    margin: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.bdetails{
+    margin-top: 70px;
+    
+}
+
+
+    .bdetails h4 {
+  color: #ff5b02;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 22px;
+  letter-spacing: 1px;
+    }
+
+
+    .bdetails p {
+  margin-top: 18px; 
+}
+
+
+#tags button {
+  background-color: white;
+  color: #ff5b02;
+  border: 1px solid #ff5b02;
+  border-radius: 4px;
+  margin-right: 6px;
+  padding: 3px 15px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+}
+
+
+    .ingredients{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ff5b02;
+        padding: 10px 22px;
+        margin-top: 16px;
+        width: 450px;
+        height: 180px;
+        color: white;
+
+    }
+
+
+    .ingredients h3{
+        margin: 10px 10px;
+    }
+   
+.ingredients ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 15px;
+  gap: 20px;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+
+.ingredients li {
+  flex: 0 0 calc(33.333% - 13.33px); 
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+}
+
+.ingredient-num {
+  width: 20px;
+  height: 25px;
+  margin-right: 10px;
+  background: #179046;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 1.1rem;
+}
+
+/* baingan ends */
+
+/* measure */
+
+.measure{
+    height: 40px;
+    background-color: white;
+   
+}
+
+.measure h3{
+    margin-left: 40px; 
+    padding: 10px;   
+}
+
+.measurelevel {
+  background-color: whitesmoke;
+  height: 120px;
+  width: 1350px;      
+  margin-left: 50px;
+  border: solid 0.5px lightgray;
+  padding: 24px 32px;
+}
+
+.measurelevel ul {
+  columns: 2;              
+  column-gap: 36px;        
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.measurelevel li {
+  font-size: 1.04rem;
+  font-weight: 500;
+  padding: 4px 0;
+}
+
+/* measure end */
+
+/* instruction */
+
+
+.instructions{
+    margin-left:50px ;
+    margin-top: 20px;
+    width: 900px;
+}
+
+.instructions p{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* instructions end */
+
+
+
+
+
+    
