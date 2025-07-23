@@ -5,6 +5,7 @@
     
 }
 
+
 .container{
     background-color:whitesmoke;
     width: 100%;
@@ -181,7 +182,6 @@ left: 55%;
   transform: scale(0.92); 
   transition: 1.2s;
 }
-   
 
 
 /* Categories container ends */
