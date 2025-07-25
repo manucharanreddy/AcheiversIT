@@ -395,6 +395,208 @@ padding-top:8px;
 }
 
 
+/* Tablets: max-width 1024px */
+@media (max-width: 1024px) {
+
+      .searchbar {
+    width: 40vw;
+    font-size: 0.6rem;
+    margin-left: 45vw;
+  }
+
+
+  .descriptionbox {
+    margin: 5vh 5vw;
+    padding: 3vh 3vw;
+  }
+
+  .descriptionbox p1 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .meals {
+    margin-left: 5vw;
+    font-size: 1.6rem;
+  }
+
+  .meals-title::after {
+    left: 5vw;
+  }
+
+  .vegetariancards {
+    gap: 2vw;
+    margin: 5vh 5vw;
+  }
+
+  .vegcard {
+    width: calc(33.33% - 2vw);
+  }
+
+  .vegcard img {
+    height: 24vh;
+  }
+}
+
+/* Small Tablets: max-width 768px */
+@media (max-width: 768px) {
+
+      .searchbar {
+    width: 50vw;
+    font-size: 0.6rem;
+    margin-left: 40vw;
+  }
+
+
+
+
+  .descriptionbox {
+    margin: 4vh 4vw;
+    padding: 2.5vh 2.5vw;
+  }
+
+  .descriptionbox h1 {
+    font-size: 1.8rem;
+  }
+
+  .descriptionbox p1 {
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+
+  .meals {
+    margin-left: 4vw;
+    font-size: 1.4rem;
+  }
+
+  .meals-title::after {
+    left: 4vw;
+    width: 80px;
+  }
+
+  .vegetariancards {
+    gap: 1.5vw;
+    margin: 4vh 4vw;
+  }
+
+  .vegcard {
+    width: calc(50% - 2vw);
+  }
+
+  .vegcard img {
+    height: 20vh;
+  }
+
+  .vegcard span {
+    font-size: 0.85rem;
+  }
+}
+
+
+/* Mobile Devices: max-width 480px */
+@media (max-width: 480px) {
+
+      .searchbar {
+    width: 70vw;
+    font-size: 0.6rem;
+    margin-left: 5vw;
+  }
+
+
+  .descriptionbox {
+    margin: 3vh 3vw;
+    padding: 2vh 2vw;
+  }
+
+  .descriptionbox h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .descriptionbox p1 {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    text-align: justify;
+  }
+
+  .meals {
+    margin-left: 3vw;
+    font-size: 1.2rem;
+  }
+
+  .meals-title::after {
+    left: 3vw;
+    width: 60px;
+  }
+
+  .vegetariancards {
+    flex-direction: column;
+    gap: 2vh;
+    margin: 4vh 4vw;
+  }
+
+  .vegcard {
+    width: 100%;
+  }
+
+  .vegcard img {
+    height: 30vh;
+  }
+
+  .vegcard span {
+    font-size: 0.95rem;
+    display: block;
+    text-align: center;
+    padding: 1vh 0;
+  }
+}
+
+/* Small Mobile Devices: max-width 320px */
+@media (max-width: 320px) {
+
+    .searchbar {
+    width: 70vw;
+    font-size: 0.6rem;
+    margin-left: 5vw;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+
+
+  .descriptionbox {
+    margin: 2vh 3vw;
+    padding: 1.5vh 2vw;
+  }
+
+  .descriptionbox h1 {
+    font-size: 1.4rem;
+  }
+
+  .descriptionbox p1 {
+    font-size: 0.75rem;
+  }
+
+  .meals {
+    font-size: 1.1rem;
+  }
+
+  .meals-title::after {
+    width: 50px;
+  }
+
+  .vegcard img {
+    height: 25vh;
+  }
+
+  .vegcard span {
+    font-size: 0.85rem;
+  }
+}
+
+
+
 /* Vegetarian page ends */
 
 
