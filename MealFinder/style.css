@@ -395,6 +395,10 @@ padding-top:8px;
 }
 
 
+/* veg page media queries */
+
+
+
 /* Tablets: max-width 1024px */
 @media (max-width: 1024px) {
 
@@ -823,6 +827,286 @@ padding-top:8px;
 }
 
 /* instructions end */
+
+
+/* baigan page media queries */
+
+
+@media (max-width: 1440px) {
+
+  .bimage img {
+    width: 40vw;
+    height: auto;
+  }
+
+  .bdetails {
+    width: 40vw;
+  }
+
+  .ingredients {
+    width: 38vw;
+    padding: 2vh;
+  }
+
+  .measurelevel {
+    width: 70vw;
+    margin-left: 3vw;
+    padding: 2vh 2vw;
+  }
+
+  .instructions {
+    width: 65vw;
+    margin-left: 3vw;
+  }
+
+  .instructions p {
+    font-size: 1.05rem;
+    line-height: 1.9rem;
+  }
+}
+
+
+/* Tablets: max-width 1024px */
+@media (max-width: 1024px) {
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 2vh 0;
+  }
+
+  .home i {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .pagename {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .pagename p {
+    font-size: 1.3rem;
+    padding: 0.5vh;
+  }
+
+  .mealdetails h1 {
+    font-size: 2rem;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  }
+
+  .border {
+    margin-left: 4vw;
+  }
+
+  .baingan {
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+  }
+
+  .bimage img {
+    width: 90vw;
+    height: auto;
+    margin: 2vh 0;
+  }
+
+  .bdetails {
+    margin-top: 2vh;
+    width: 90vw;
+  }
+
+  .ingredients {
+    width: 90%;
+    height: auto;
+    padding: 2vh;
+  }
+
+  .ingredients li {
+    flex: 0 0 50%;
+  }
+
+  .measurelevel {
+    width: 80vw;
+    height: auto;
+    margin-left: 5vw;
+    padding: 2vh 2vw;
+  }
+
+  .measurelevel ul {
+    columns: 1;
+  }
+
+  .instructions {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+}
+
+/* Small Tablets: max-width 768px */
+@media (max-width: 768px) {
+
+  .pagename p {
+    font-size: 1.1rem;
+  }
+
+  .mealdetails h1 {
+    font-size: 1.8rem;
+  }
+
+  .bdetails h4 {
+    font-size: 1.6rem;
+  }
+
+  .bdetails p,
+  #tags button {
+    font-size: 0.95rem;
+  }
+
+  .ingredients {
+    font-size: 0.9rem;
+  }
+
+  .ingredient-num {
+    font-size: 1rem;
+    width: 18px;
+    height: 20px;
+  }
+
+  .measurelevel li {
+    font-size: 1rem;
+  }
+
+  .instructions p {
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+  }
+}
+
+/* Mobile Devices: max-width 480px */
+@media (max-width: 480px) {
+
+  .navbar {
+    padding: 1vh;
+  }
+
+  .home i {
+    font-size: 1.5rem;
+  }
+
+  .pagename p {
+    font-size: 1rem;
+  }
+
+  .mealdetails h1 {
+    font-size: 1.6rem;
+    padding-left: 2vw;
+  }
+
+  .border {
+    width: 60px;
+    margin-left: 2vw;
+  }
+
+  .bimage img {
+    width: 100%;
+  }
+
+  .bdetails h4 {
+    font-size: 1.4rem;
+  }
+
+  .bdetails p {
+    font-size: 0.85rem;
+  }
+
+  #tags button {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.8rem;
+  }
+
+  .ingredients {
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .ingredients li {
+    flex: 0 0 100%;
+  }
+
+  .measure h3 {
+    font-size: 1.2rem;
+     margin-left: 1vw;
+  }
+
+  .measurelevel {
+    padding: 1.5vh 1vw;
+    
+  }
+
+  .measurelevel li {
+    font-size: 0.95rem;
+  }
+
+  .instructions {
+    margin-left: 5vw;
+    width: 95vw;
+     margin-right: 5vw;
+  }
+
+  .instructions p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* Small Mobile Devices: max-width 320px */
+@media (max-width: 320px) {
+
+  .pagename p {
+    font-size: 1rem;
+  }
+
+  .mealdetails h1 {
+    font-size: 1.4rem;
+  }
+
+  .bdetails h4 {
+    font-size: 1.2rem;
+  }
+
+  .bdetails p {
+    font-size: 0.8rem;
+  }
+
+  .ingredient-num {
+    font-size: 0.9rem;
+    width: 16px;
+    height: 18px;
+  }
+
+  #tags button {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+
+  .measure h3 {
+    font-size: 1.1rem;
+    margin-left: 1vw;
+  }
+
+  .measurelevel li {
+    font-size: 0.80rem;
+  }
+
+  .instructions p {
+    font-size: 0.85rem;
+  }
+}
+
+/* media queries end */
 
 
 
